@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+  max-width: 1170px;
+  margin: auto;
+}
+.navbar{
+  background-color: black;
+  padding: 1rem;
+}
+.navbar_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_brand a{
+  font-size: 1.4rem;
+  color: white;
+  text-decoration: none;
+}
+.navbar_brand a:hover {
+  color:aquamarine;
+}
+
+.nav_links{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.link_links a{
+  display: block;
+  padding: 1rem;
+  color:white;
+  text-decoration: none;
+  margin: left 0.5em; 
+  border: 1px solid black;
+  font-size: 20px;
+}
+.link_links a:hover{
+  border-bottom: 1px solid aquamarine; 
+  color:aquamarine
+}
+
+.homepage{
+   margin-top:5rem;
+}
+.radio-box{
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.radio-btn{
+  margin:5px; 
+  padding: 10px;
+  align-items: center;
+}
+.serachbar{
+  margin-top: 2rem;
+  
+}
+.searchbox{
+  width: 1200px;
+  height: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.searchbox::placeholder{
+  text-align: center;
+  font-size: 15px;
+}
+
+.showcontainer{
+  display: flex;
+  float: left;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  text-overflow: ellipsis;
+}
+
+.showcontainer card{
+  border: 1px solid black;
+  margin: 0px 2px;
+}
